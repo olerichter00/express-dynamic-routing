@@ -1,0 +1,23 @@
+{
+  "name": "@olerichter00/express-smart-routing",
+  "description": "A smart way of handling routis in express.",
+  "repository": "https://github.com/olerichter00/express-smart-routing.git",
+  "author": "Ole Richter <ole.richter91@gmail.com>",
+  "version": "1.0.0",
+  "priate": true,
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1",
+    "nodemon": "^2.0.3",
+    "supertest": "^4.0.2"
+  }
+}
